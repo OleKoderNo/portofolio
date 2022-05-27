@@ -1,5 +1,5 @@
-import { Footer, FooterFill } from "../globalComponents/Footer";
-import { Header, HeaderPic, NavBar, Selvportrett, Tittel } from "../globalComponents/NavBar";
+import FooterBar from "../globalComponents/Footer";
+import NavigasjonBar, { Header, HeaderPic, Selvportrett, Tittel } from "../globalComponents/NavBar";
 import { Column, CssLogo, HtmlLogo, JsLogo, ReactLogo, SideText, SkillTree, TextBackground, UnderTittel } from "./landingPage/LandingPageComp";
 
 
@@ -7,11 +7,7 @@ function LandingPage() {
     return(
         <>
         <Header>
-            <NavBar>
-                <li><span>&lsaquo;</span> Om meg /<span>&rsaquo;</span></li>
-                <li><span>&lsaquo;</span> Prosjekter /<span>&rsaquo;</span></li>
-                <li><span>&lsaquo;</span> Kontakt /<span>&rsaquo;</span></li>
-            </NavBar>
+            <NavigasjonBar />
             <Tittel>Ole Håvard Furuseth Bergan</Tittel>
             <Selvportrett />
             <HeaderPic />
@@ -32,13 +28,7 @@ function LandingPage() {
                 <ReactLogo />
             </Column>
         </SkillTree>
-        <Footer>
-                <FooterFill>
-                    <li>Ole Håvard Furuseth Bergan</li>
-                    <li>Epost: ohfb96@gmail.com</li>
-                    <li>Nummer: 96912304</li>
-                </FooterFill>
-            </Footer>
+        <FooterBar />
         </>
        
             

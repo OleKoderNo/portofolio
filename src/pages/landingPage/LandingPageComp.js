@@ -26,7 +26,7 @@ export const UnderTittel=styled.h2`
   text-align: center;
   color: rgb(159, 159, 159);
   font-size: 1.75rem;
-  padding-top: 1.5rem;
+  padding-top: 2rem;
 `
 
 export const SideText=styled.p`
@@ -76,24 +76,24 @@ width: 10rem;
 height: 10rem;
 `
 export const JsLogo=styled.div`
-display: flex;
-margin-top: 2rem;
-background-image: url(${jsImg});
-background-size: contain;
-background-repeat: no-repeat;
+  display: flex;
+  margin-top: 2rem;
+  background-image: url(${jsImg});
+  background-size: contain;
+  background-repeat: no-repeat;
     position: relative;
     background-position: center;
-width: 10rem;
-height: 8rem;
+  width: 10rem;
+  height: 8rem;
 `
 
 export const ReactLogo=styled.div`
-background-image: url(${logoImg});
-background-size: contain;
-background-repeat: no-repeat;
-position: relative;
-background-position: center;
-margin-top: 2rem;
-width: 10rem;
-height: 10rem;
+  background-image: url(${logoImg});
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  margin-top: 2rem;
+  width: 10rem;
+  height: 10rem;
 `

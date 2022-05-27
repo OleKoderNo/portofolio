@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import portettimg from "../Images/portettbilde.jpg"
-import headerbg from "../Images/header-background.jpg"
+import pcbgpic from "../Images/pc-background.png"
 
 export const Header=styled.header`
     width: 100vw;
@@ -31,7 +31,7 @@ export const Tittel=styled.h1`
     text-align: center;
     color: rgb(159, 159, 159);
     font-size: 2rem;
-    margin-top: 3.5rem;
+    margin-top: 4.5rem;
     @media (min-width: 501px) {
         font-size: 3rem;
     }
@@ -50,7 +50,7 @@ export const Selvportrett=styled.div`
 `
 
 export const HeaderPic=styled.div`
-    background-image: url(${headerbg});
+    background-image: url(${pcbgpic});
     background-size: cover;
     position: relative;
     background-position: center;
@@ -61,3 +61,17 @@ export const HeaderPic=styled.div`
         height: 25rem;
     }
 `
+function NavigasjonBar(){
+    return(
+        <>
+            <NavBar>
+                <li><span>&lsaquo;</span> Om meg /<span>&rsaquo;</span></li>
+                <li><span>&lsaquo;</span> Prosjekter /<span>&rsaquo;</span></li>
+                <li><span>&lsaquo;</span> Kontakt /<span>&rsaquo;</span></li>
+            </NavBar>
+        </>
+        )
+    
+}
+
+export default NavigasjonBar;

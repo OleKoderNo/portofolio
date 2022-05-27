@@ -15,3 +15,18 @@ export const FooterFill=styled.ul`
   list-style: none outside none;
   text-align: center;
 `
+
+function FooterBar() {
+  return(
+    <>
+     <Footer>
+        <FooterFill>
+          <li>Ole Håvard Furuseth Bergan</li>
+          <li>Epost: ohfb96@gmail.com</li>
+          <li>Nummer: 96912304</li>
+        </FooterFill>
+      </Footer></>
+  )
+}
+
+export default FooterBar;
