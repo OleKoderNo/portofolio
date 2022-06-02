@@ -26,6 +26,13 @@ export const NavBar=styled.ul`
     align-items: center;
     list-style: none outside none;
     text-align: center;
+    text-decoration: none;
+`
+
+export const NavLink=styled.li`
+    color: cyan;
+    text-decoration: none;
+    
 `
 export const Tittel=styled.h1`
     text-align: center;
@@ -51,7 +58,8 @@ export const Selvportrett=styled.div`
 
 export const HeaderPic=styled.div`
     background-image: url(${pcbgpic});
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     position: relative;
     background-position: center;
     margin: 2.5rem auto;
@@ -61,14 +69,12 @@ export const HeaderPic=styled.div`
         height: 25rem;
     }
 `
+
+
 function NavigasjonBar(){
     return(
         <>
-            <NavBar>
-                <li><span>&lsaquo;</span> Om meg /<span>&rsaquo;</span></li>
-                <li><span>&lsaquo;</span> Prosjekter /<span>&rsaquo;</span></li>
-                <li><span>&lsaquo;</span> Kontakt /<span>&rsaquo;</span></li>
-            </NavBar>
+            
         </>
         )
     

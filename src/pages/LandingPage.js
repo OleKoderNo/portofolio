@@ -1,5 +1,4 @@
-import FooterBar from "../globalComponents/Footer";
-import NavigasjonBar, { Header, HeaderPic, Selvportrett, Tittel } from "../globalComponents/NavBar";
+import { Header, HeaderPic, Selvportrett, Tittel } from "../globalComponents/NavBar";
 import { Column, CssLogo, HtmlLogo, JsLogo, ReactLogo, SideText, SkillTree, TextBackground, UnderTittel } from "./landingPage/LandingPageComp";
 
 
@@ -7,7 +6,7 @@ function LandingPage() {
     return(
         <>
         <Header>
-            <NavigasjonBar />
+            {/* <NavigasjonBar /> */}
             <Tittel>Ole Håvard Furuseth Bergan</Tittel>
             <Selvportrett />
             <HeaderPic />
@@ -28,7 +27,6 @@ function LandingPage() {
                 <ReactLogo />
             </Column>
         </SkillTree>
-        <FooterBar />
         </>
        
             
