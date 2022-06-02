@@ -38,7 +38,7 @@ export const Tittel=styled.h1`
     text-align: center;
     color: rgb(159, 159, 159);
     font-size: 2rem;
-    margin-top: 4.5rem;
+    margin-top: 4.8rem;
     @media (min-width: 501px) {
         font-size: 3rem;
     }
