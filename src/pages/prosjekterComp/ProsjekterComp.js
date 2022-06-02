@@ -5,13 +5,20 @@ import parallaxPreview from "../pageImages/Parallax_preview.png"
 export const FlexRight=styled.div`
     display: flex;
     flex-direction: row;
-    margin: 3rem 10rem;
+    margin: 3rem;
+    @media (max-width: 501px){
+      margin-left: .5rem;
+    }
 `
 
 export const FlexLeft=styled.div`
     display: flex;
     flex-direction: row-reverse;
-    margin: 3rem 10rem;
+    margin: 3rem;
+    @media (max-width: 501px){
+      margin-right: -10rem;
+    }
+    
 `
 
 export const PokeDexPreview=styled.div`

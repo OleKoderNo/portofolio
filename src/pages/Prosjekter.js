@@ -7,7 +7,6 @@ import { FlexLeft, FlexRight, KontaktText, ParallaxPreview, PokeDexPreview } fro
 function Prosjekter() {
     return(
         <>
-        <Header>
             <Tittel>Mine prosjekter</Tittel>
             <FlexRight>
                 <a href="https://olekodehode.github.io/pokedex/" target="_blank" rel="noreferrer">
@@ -22,7 +21,6 @@ function Prosjekter() {
                 <KontaktText>I dette prosjektet laget jeg en utrolig fin parallax nettside som er opptimalisert for alle skjermstørrelser og lærte mye om styling på bilder.</KontaktText>
             </FlexLeft>
             <UnderTittel>Siden er under oppbygging</UnderTittel>
-        </Header>
         </>
         
     )
