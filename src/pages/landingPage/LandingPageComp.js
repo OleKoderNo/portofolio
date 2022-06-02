@@ -67,13 +67,13 @@ height: 10rem;
 `
 
 export const CssLogo=styled.div`
-background-image: url(${cssImg});
-background-size: contain;
-background-repeat: no-repeat;
-    position: relative;
-    background-position: center;
-width: 10rem;
-height: 10rem;
+  background-image: url(${cssImg});
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  width: 10rem;
+  height: 10rem;
 `
 export const JsLogo=styled.div`
   display: flex;
@@ -81,8 +81,8 @@ export const JsLogo=styled.div`
   background-image: url(${jsImg});
   background-size: contain;
   background-repeat: no-repeat;
-    position: relative;
-    background-position: center;
+  position: relative;
+  background-position: center;
   width: 10rem;
   height: 8rem;
 `
