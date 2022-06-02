@@ -94,6 +94,6 @@ export const ReactLogo=styled.div`
   position: relative;
   background-position: center;
   margin-top: 2rem;
-  width: 10rem;
-  height: 10rem;
+  width: 13.5rem;
+  height: 13.5rem;
 `
