@@ -21,9 +21,15 @@ function FooterBar() {
     <>
      <Footer>
         <FooterFill>
-          <li>Ole Håvard Furuseth Bergan</li>
-          <li>Epost: ohfb96@gmail.com</li>
-          <li>Nummer: 96912304</li>
+          <li>
+            Ole Håvard Furuseth Bergan
+          </li>
+          <li>
+            Epost: ohfb96@gmail.com
+          </li>
+          <li>
+            Nummer: 96912304
+          </li>
         </FooterFill>
       </Footer></>
   )
