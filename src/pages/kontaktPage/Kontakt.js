@@ -1,23 +1,24 @@
-import { 
-    Header, 
-    Tittel 
+import { t } from "i18next";
+import {
+    Header,
+    Tittel
 } from "../../globalComponents/NavBar";
 import { UnderTittel } from "../landingPage/LandingPageComp";
 
 
 function Kontakt() {
-    return(
+    return (
         <>
-        <Header>
-            <Tittel>
-                Kontakt meg
-            </Tittel>
-            <UnderTittel>
-                Siden er under oppbygging
-            </UnderTittel>
-        </Header>
+            <Header>
+                <Tittel>
+                    {t("Contact.contact")}
+                </Tittel>
+                <UnderTittel>
+                    {t("Contact.build")}
+                </UnderTittel>
+            </Header>
         </>
-        
+
     )
 }
 

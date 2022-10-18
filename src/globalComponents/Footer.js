@@ -1,6 +1,7 @@
+import { t } from "i18next";
 import styled from "styled-components";
 
-export const Footer=styled.footer`
+export const Footer = styled.footer`
   display: flex;
   border: solid black 2px;
   background-color: black;
@@ -11,24 +12,24 @@ export const Footer=styled.footer`
   margin-top: 5rem;
 `
 
-export const FooterFill=styled.ul`
+export const FooterFill = styled.ul`
   list-style: none outside none;
   text-align: center;
 `
 
 function FooterBar() {
-  return(
+  return (
     <>
-     <Footer>
+      <Footer>
         <FooterFill>
           <li>
-            Ole Håvard Furuseth Bergan
+            {t("Footer.name")}
           </li>
           <li>
-            Epost: ohfb96@gmail.com
+            {t("Footer.email")}
           </li>
           <li>
-            Nummer: 96912304
+            {t("Footer.number")}
           </li>
         </FooterFill>
       </Footer></>

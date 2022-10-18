@@ -4,13 +4,13 @@ import {
   Route, 
   NavLink 
 } from "react-router-dom";
+import { t } from "i18next";
 import { NavBar } from './globalComponents/NavBar';
-
-import FooterBar from './globalComponents/Footer';
-import './App.css';
 import LandingPage from "./pages/landingPage/LandingPage";
 import Prosjekter from "./pages/prosjekterComp/Prosjekter";
+import FooterBar from './globalComponents/Footer';
 import Kontakt from "./pages/kontaktPage/Kontakt";
+import './App.css';
 
 function App() {
   return (
@@ -20,17 +20,17 @@ function App() {
           <NavLink 
             to="/"
           >
-            &lsaquo; Om meg /&rsaquo;
+            &lsaquo; {t("App.aboutMe")} /&rsaquo;
           </NavLink>
           <NavLink 
             to="/prosjekter"
           >
-            &lsaquo; Prosjekter /&rsaquo;
+            &lsaquo; {t("App.projects")} /&rsaquo;
           </NavLink>
           <NavLink 
             to="/kontakt"
           >
-            &lsaquo; Kontakt /&rsaquo;
+            &lsaquo; {t("App.contact")} /&rsaquo;
           </NavLink>
         </NavBar>
         

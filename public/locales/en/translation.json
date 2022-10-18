@@ -1,0 +1,36 @@
+{
+  "App": {
+    "aboutMe": "About me",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+
+  "LandingPage": {
+    "title": "Ole Håvard Furuseth Bergan",
+    "aboutMe": "About me",
+    "infoAboutMe": "Hello, my name is Ole Håvard Furuseth Bergan, I am 26 years old and come from Kongsberg",
+    "infoFreeTime": "I moved to Vestlandet in 2019. In my spare time I like to exercise, go for walks, play games, cook and watch anime.",
+    "infoCharity": "A lot of my free time is also spent on charity. Among other things, I am the financial manager in Norwegian People's Aid's Solidarity Youth Bergen, and take part in most of the activities we organise.",
+    "infoPersona": "I am love to learn new things, and like challenges and problem solving. This is one of the biggest reasons why I love to code, and find this rewarding and challenging. If I encounter a challenge, I smile on the inside as it means that I have even more to learn and it gives me enormous joy and motivation to improve.",
+    "mySkills": "My skills"
+  },
+
+  "Projects": {
+    "myProjects": "My projects",
+    "projectPokedex": "In this project, I used vanilla javascript where I created a pokedex using an API call, which goes through all the 898 Pokémon, and shows different types of information I have extracted.",
+    "projectParallax": "In this project I created an beautiful parallax website that is optimized for all screen sizes and learned a lot about styling images.",
+    "projectSolarsystem": "In this group project, we have created the entire solar system. What I worked on the most here was the setup of the navbar, the footer, i18next and getting the planets to rotate on the front page. The project has a main focus on the use of Styled Components and good routing.",
+    "build": "The site is under construction"
+  },
+
+  "Contact": {
+    "contact": "Kontant meg",
+    "build": "The site is under construction"
+  },
+
+  "Footer": {
+    "name": "Ole Håvard Furuseth Bergan",
+    "email": "Email: ohfb96@gmail.com",
+    "number": "Number: +4796912304"
+  }
+}
