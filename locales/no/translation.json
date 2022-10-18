@@ -1,0 +1,36 @@
+{
+  "App": {
+    "aboutMe": "Om meg",
+    "projects": "Prosjekter",
+    "contact": "Kontant"
+  },
+
+  "LandingPage": {
+    "title": "Ole Håvard Furuseth Bergan",
+    "aboutMe": "Om meg",
+    "infoAboutMe": "Hei, jeg heter Ole Håvard Furuseth Bergan, er 26 år gammel og kommer fra Kongsberg",
+    "infoFreeTime": "Jeg flyttet til Vestlandet i 2019. På fritiden min liker jeg å trene, gå tur, gaming, lage mat og se på anime.",
+    "infoCharity": "Mye av fritiden min går også ut på veldedighet. Jeg er blandt annet økonomiansvarlig i Norsk Folkehjelps Solidaritetsungdom Bergen, og er med på de fleste aktiviteter vi arrangerer.",
+    "infoPersona": "Jeg er utrolig glad i å lære nye ting, og liker utfordringer og problemløsninger. Dette er en av de største grunnene til at jeg er så utrolig glad i å kode, og synes dette er utrolig givende og utfordrene. Møter jeg på en utfordring så smiler jeg på innsiden da dette betyr at jeg har enda mer å lære og gir meg en enorm glede og motivasjon til å bli bedre.",
+    "mySkills": "Mine egenskaper"
+  },
+
+  "Projects": {
+    "myProjects": "Mine prosjekter",
+    "projectPokedex": "I dette prosjektet har brukt vanilla javascript der jeg laget en pokedex ved hjelp av et API call, som går igjennom alle de 898 Pokémonene, og viser forskjellig type informasjon jeg har hentet ut.",
+    "projectParallax": "I dette prosjektet laget jeg en utrolig fin parallax nettside som er opptimalisert for alle skjermstørrelser og lærte mye om styling på bilder.",
+    "projectSolarsystem": "I dette gruppeprosjektet har vi laget hele solsystemet. Det jeg jobbet mest med her var oppsettet av navbaren, footeren, i18next og få planetene til å rotere på forsiden. Prosjektet har hovedfokus på bruken av Styled Components og bra routing.",
+    "build": "Siden er under oppbygging"
+  },
+
+  "Contact": {
+    "contact": "Kontant meg",
+    "build": "Siden er under oppbygging"
+  },
+
+  "Footer": {
+    "name": "Ole Håvard Furuseth Bergan",
+    "email": "Epost: ohfb96@gmail.com",
+    "number": "Nummer: 96912304"
+  }
+}
