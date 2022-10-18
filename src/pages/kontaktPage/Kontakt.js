@@ -1,8 +1,8 @@
 import { 
     Header, 
     Tittel 
-} from "../globalComponents/NavBar";
-import { UnderTittel } from "./landingPage/LandingPageComp";
+} from "../../globalComponents/NavBar";
+import { UnderTittel } from "../landingPage/LandingPageComp";
 
 
 function Kontakt() {

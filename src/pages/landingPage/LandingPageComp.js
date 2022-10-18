@@ -1,5 +1,4 @@
 import styled from "styled-components";
-// import portettimg from "../Images/portettbilde.jpg"
 import htmlImg from "../pageImages/html.svg"
 import cssImg from "../pageImages/css.svg"
 import jsImg from "../pageImages/jslogo.svg"

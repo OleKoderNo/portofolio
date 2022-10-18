@@ -1,15 +1,14 @@
 import { 
-    Header, 
     Tittel 
-} from "../globalComponents/NavBar";
-import { UnderTittel } from "./landingPage/LandingPageComp";
+} from "../../globalComponents/NavBar";
+import { UnderTittel } from "../landingPage/LandingPageComp";
 import { 
     FlexLeft, 
     FlexRight, 
     KontaktText, 
     ParallaxPreview, 
     PokeDexPreview 
-} from "./prosjekterComp/ProsjekterComp";
+} from "./ProsjekterComp";
 
 
 
@@ -33,7 +32,8 @@ function Prosjekter() {
             <FlexLeft>
                 <a 
                     href="https://olekodehode.github.io/parallax/" 
-                    target="_blank" rel="noreferrer"
+                    target="_blank" 
+                    rel="noreferrer"
                 >
                 <ParallaxPreview />
                 </a>
