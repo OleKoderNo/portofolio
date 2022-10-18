@@ -21,7 +21,8 @@ function Prosjekter() {
             <FlexRight>
                 <a 
                     href="https://olekodehode.github.io/pokedex/" 
-                    target="_blank" rel="noreferrer"
+                    target="_blank" 
+                    rel="noreferrer"
                 >
                     <PokeDexPreview />        
                 </a>
@@ -41,6 +42,15 @@ function Prosjekter() {
                     I dette prosjektet laget jeg en utrolig fin parallax nettside som er opptimalisert for alle skjermstørrelser og lærte mye om styling på bilder.
                 </KontaktText>
             </FlexLeft>
+            <FlexRight>
+                <a
+                    href="https://andreastak86.github.io/Solsytemet/"
+                >
+                <KontaktText>
+                    I dette gruppeprosjektet har vi laget hele solsystemet. Det jeg jobbet mest med her var oppsettet av navbaren, footeren, i18next og få planetene til å rotere på forsiden. Prosjektet har hovedfokus på bruken av Styled Components og bra routing.
+                </KontaktText>
+                </a>
+            </FlexRight>
             <UnderTittel>
                 Siden er under oppbygging
             </UnderTittel>
